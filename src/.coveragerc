@@ -3,9 +3,13 @@
 omit =
     */_lib_test.venv/*
     */_lib_test*
+    */lib_test.py
+    */pytest_wrapper.py
 
 [report]
 # Optional: also omit from the final report
 omit =
     */_lib_test.venv/*
     */_lib_test*
+    */lib_test.py
+    */pytest_wrapper.py

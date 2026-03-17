@@ -29,7 +29,7 @@ Executing tests from //src:lib_test
 -----------------------------------------------------------------------------
 ============================= test session starts =============================
 platform win32 -- Python 3.10.19, pytest-7.4.4, pluggy-1.6.0
-rootdir: C:\Users\xxxxx\AppData\Local\Temp\Bazel.runfiles_3x_y9szz\runfiles\_main
+rootdir: C:\Users\xxxxx\AppData\Local\Temp\Bazel.runfiles_n8d9_pb2\runfiles\_main
 plugins: cov-7.0.0
 collected 1 item
 
@@ -38,13 +38,11 @@ src\lib_test.py .                                                        [100%]
 =============================== tests coverage ================================
 ______________ coverage: platform win32, python 3.10.19-final-0 _______________
 
-Name                    Stmts   Miss  Cover   Missing
------------------------------------------------------
-__init__.py                 0      0   100%
-src\__init__.py             0      0   100%
-src\lib_test.py             4      0   100%
-src\main.py                 6      2    67%   2, 8
-src\pytest_wrapper.py       7      7     0%   2-16
------------------------------------------------------
-TOTAL                      17      9    47%
-============================== 1 passed in 0.12s ==============================
+Name              Stmts   Miss  Cover   Missing
+-----------------------------------------------
+__init__.py           0      0   100%
+src\__init__.py       0      0   100%
+src\main.py           6      2    67%   2, 8
+-----------------------------------------------
+TOTAL                 6      2    67%
+============================== 1 passed in 0.15s ==============================
