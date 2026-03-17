@@ -1,0 +1,6 @@
+.venv/
+bazel-bazel-python-coverage/
+bazel-bin
+bazel-out
+bazel-testlogs
+

@@ -1,0 +1,19 @@
+load("@rules_python//python:defs.bzl", "py_library")
+load("@rules_python//python:defs.bzl", "py_test")
+load("@pypi//:requirements.bzl", "requirement")
+py_library(
+    name = "lib",
+    srcs = ["main.py"],
+    visibility = ["//visibility:public"],
+)
+py_test(
+    name = "lib_test",
+    srcs = ["lib_test.py", "pytest_wrapper.py"],
+    deps = [
+      ":lib",
+      requirement("pytest"),
+      requirement("pytest-cov"),
+      requirement("pluggy"),
+    ],
+    main = "pytest_wrapper.py",
+)
