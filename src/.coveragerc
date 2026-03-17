@@ -1,0 +1,11 @@
+[run]
+# Paths to omit from coverage measurement
+omit =
+    */_lib_test.venv/*
+    */_lib_test*
+
+[report]
+# Optional: also omit from the final report
+omit =
+    */_lib_test.venv/*
+    */_lib_test*
